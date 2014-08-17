@@ -104,6 +104,13 @@ $(document).ready(function(){
 		});
 
 
+		$("#photographs").click(function(){
+			var content_element_id = link.attr("href");
+
+		$(content_element_id).fadeIn();
+		});
+
+
 
 
 

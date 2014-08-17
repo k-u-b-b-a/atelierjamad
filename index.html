@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 
-
+ 
 <html>
 
 <head>
@@ -14,10 +14,7 @@
 
     <script type="text/javascript">
         $(function(){
-          $(".third-level-content").slidesjs({
-            width: 600,
-            height: 600
-          });
+          $(".slide").slidesjs();
         });
     </script>
     
@@ -86,40 +83,34 @@
                     <!-- INSTALLATIONS -->
 
                     <div id="installations" class="first-level-content">
-                        
-                        <a id="signal-click" class="second-level-content" href="#unsignal-images">Hors signal</a>
-                        <a id="city-click" class="second-level-content" href="#city-images">City of Lost Artifacts</a> <br>
-                        
-
-                            <ul id="unsignal-images" class="third-level-content">
+                            <a id="signal-click" class="second-level-content" href="#unsignal-images">Hors signal</a>
+                            <a id="city-click" class="second-level-content" href="#city-images">City of Lost Artifacts</a> <br>
                                 
-                                <!--<li><p id="unsignal-text" class="installations-content">
-                                Produced at a six week Artist Residency at Eastern Bloc Hors Signal explors an Architecture of Silence in Pentonville, a 19th century English prison</p></li>-->
-                                <li><img id="unsignal-one"class="installations-content" src="images/01unsignal.jpg"></li>
-                                <li><img id="02unsignal"class="installations-content" src="images/02unsignal.jpg"></li>
-                                <li><img id="03unsignal"class="installations-content" src="images/03unsignal.jpg"></li>
-                                <li><img id="04unsignal"class="installations-content" src="images/04unsignal.jpg"></li>
-                                <li id="city" class="installations-content">Produced at a six week Artist Residency at Eastern Bloc Hors Signal explors an Architecture of Silence in Pentonville, a 19th century English prison</li> 
+                            <div id="unsignal-images" class="third-level-content">
+                                <div class="image-wrapper">
+                                    <div class="slide">
+                                        <div><img id="unsignal-one"class="installations-content" src="images/01unsignal.jpg"></div>
+                                        <div><img id="02unsignal"class="installations-content" src="images/02unsignal.jpg"></div>
+                                        <div><img id="03unsignal"class="installations-content" src="images/03unsignal.jpg"></div>
+                                        <div><img id="04unsignal"class="installations-content" src="images/04unsignal.jpg"></div>                                 
+                                    </div>
+                                </div>
+                                <p class="project-text">Hors Signal is an installation exploring suppressive silence in a 19th century English prison: Pentonville.  Produced during a six week artist residency at <a  id="eb" href="http://www.easternbloc.ca/residencies-2013-2014.php?lien=residencies-A13" target="_blank">Eastern Bloc</a> in Montréal. </p>
+                            </div>
+
                             
-                            </ul>
-
-                        
-
-
-                             <ul id="city-images" class="third-level-content">
-                                
-                                
-                                <li> <img id="city1"class="installations-content" src="images/thesis/01thesis.jpg"></li>
-                                <li> <img id="city1"class="installations-content" src="images/thesis/02thesis.jpg"></li>
-                                <li> <img id="city1"class="installations-content" src="images/thesis/03thesis.jpg"></li>
-                                <li> <img id="city1"class="installations-content" src="images/thesis/04thesis.jpg"></li>
-                                <li> <img id="city1"class="installations-content" src="images/thesis/05thesis.jpg"></li>
-                                 
-                            
-                            </ul>
-
-
-                        
+                            <div id="city-images" class="third-level-content">
+                                <div class="image-wrapper">
+                                     <div class="slide"> 
+                                        <div><img id="city1"class="installations-content" src="images/thesis/01thesis.jpg"></div>
+                                        <div><img id="city1"class="installations-content" src="images/thesis/02thesis.jpg"></div>
+                                        <div><img id="city1"class="installations-content" src="images/thesis/03thesis.jpg"></div>
+                                        <div><img id="city1"class="installations-content" src="images/thesis/04thesis.jpg"></div>
+                                        <div><img id="city1"class="installations-content" src="images/thesis/05thesis.jpg"></div>
+                                    </div>
+                                </div>
+                                <p class="project-text"> lakjfalkjfaslkjaldjflj</P>
+                            </div>   
                     </div>
 
                     <!-- OBJECTS -->
@@ -129,28 +120,25 @@
                         <a id="tarek-click" class="second-level-content" href="#tarek-images">Bookshelf for Tarek</a>
                         <a id="gaia-click" class="second-level-content" href="#gaia-images">Bookshelf for Gaïa</a> <br>
 
+                        <div id="tarek-images" class="third-level-content">
+                            <div class="image-wrapper">
+                                <div class="slide">                                
+                                    <div><img id="01tarek"class="objects-content" src="images/tarek/01tarek.jpg"></div>
+                                    <div><img id="02tarek"class="objects-content" src="images/tarek/02tarek.jpg"></div>
+                                    <div><img id="03tarek"class="objects-content" src="images/tarek/04tarek.jpg"></div>                              
+                                </div>
+                            </div>
+                        </div>
 
-                            <ul id="tarek-images" class="third-level-content">
-                                
-                                <li><img id="01tarek"class="objects-content" src="images/tarek/01tarek.jpg"></li>
-                                <li><img id="02tarek"class="objects-content" src="images/tarek/02tarek.jpg"></li>
-                             
-                                <li><img id="03tarek"class="objects-content" src="images/tarek/04tarek.jpg"></li>
-                                
-                            </ul>
-
-
-
-                            <ul id="gaia-images" class="third-level-content">
-                                
-                                <li><img id="01gaia"class="objects-content" src="images/gaia/01gaia.jpg"></li>
-                                <li><img id="02gaia"class="objects-content" src="images/gaia/02gaia.jpg"></li>
-                                <li><img id="03gaia"class="objects-content" src="images/gaia/03gaia.jpg"></li>
-                                
-                            </ul>
-
-
-
+                            <div  id="gaia-images" class="third-level-content">
+                                <div class="image-wrapper">
+                                    <div class="slide">                                
+                                        <div><img id="01gaia"class="objects-content" src="images/gaia/01gaia.jpg"></div>
+                                        <div><img id="02gaia"class="objects-content" src="images/gaia/02gaia.jpg"></div>
+                                        <div><img id="03gaia"class="objects-content" src="images/gaia/03gaia.jpg"></div>                                
+                                    </div>
+                                </div>
+                            </div>
                     </div>
 
                     <!-- DRAWINGS -->
@@ -161,21 +149,17 @@
 
                     <!--CONTACT-->
 
-                     <div id="photographs" class="first-level-content">
-                         
-                         <a id="photos-click" class="second-level-content" href="#photos">2005-2007</a>
-
-                            <ul id="photos" class="third-level-content">
-                                
-                                <li><img id="01photo"class="photographs-content" src="images/pictures/01.jpg"></li>
-                                <li><img id="02photo"class="photographs-content" src="images/pictures/02.jpg"></li>
-                                <li><img id="03photo"class="photographs-content" src="images/pictures/03.jpg"></li>
-                                <li><img id="04photo"class="photographs-content" src="images/pictures/04.jpg"></li>
-
-
-                               
-                                
-                            </ul>
+                    <div id="photographs" class="first-level-content"href="#photos">
+                            <div id="photos">
+                                <div class="image-wrapper">    
+                                    <div class="slide">                                
+                                        <div><img id="01photo"class="photographs-content" src="images/pictures/01.jpg"></div>
+                                        <div><img id="02photo"class="photographs-content" src="images/pictures/02.jpg"></div>
+                                        <div><img id="03photo"class="photographs-content" src="images/pictures/03.jpg"></div>
+                                        <div><img id="04photo"class="photographs-content" src="images/pictures/04.jpg"></div>                                
+                                    </div>
+                                </div>
+                            </div>
                     </div> 
 
 
@@ -190,7 +174,7 @@
         
         <div id="title">
         
-            <img src="images/JAMAD.jpg">    
+            <p>Atelier JAMAD</P>   
         </div>
         
 	
