@@ -1,7 +1,7 @@
 
 body {
 	
-	min-width:1300px;
+	min-width:1500px;
 	height:768px;
 	margin:0px auto;
 	padding:0;
@@ -14,7 +14,7 @@ body {
 #main-navigation { 	
 					 
 	font-family:"Courier New", Courier, monospace; 
-	font-weight:lighter; 
+	
 	font-stretch:ultra-expanded;
 }
 
@@ -77,6 +77,15 @@ body {
 	padding-top: 90px;
 }
 
+.game-text{
+
+	color: #999;
+	width: 500px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 30px;
+}
+
 .slide{
 
 	margin-left: 70px;
@@ -96,11 +105,14 @@ body {
 
 #title {
 
-	margin-right: 300px;
-	margin-top: -6px;
+	margin-right: 250px;
+	margin-top: -25px;
 	float: right;
 	color: #09c;
-	letter-spacing: 10px;
+	letter-spacing: 20px;
+	font-size: 22px;
+
+	
 }
 
 .current-link {
@@ -139,4 +151,8 @@ body {
 
 	color:#999!important;
 	text-decoration:underline!important;
+}
+
+#UnityEmbed {
+	margin-top: 20px;
 }
