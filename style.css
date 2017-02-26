@@ -57,6 +57,11 @@ body {
 	margin-right: 40px;
 }
 
+#main-navigation #all-content #reach-click {
+
+	margin-right: 40px;
+}
+
 #main-navigation #all-content #tarek-click {
 
 	margin-right: 40px;
@@ -74,7 +79,7 @@ body {
 	width: 500px;
 	display: inline-block;
 	vertical-align: top;
-	padding-top: 90px;
+	padding-top: 35px;
 }
 
 .game-text{
@@ -88,7 +93,7 @@ body {
 
 .slide{
 
-	margin-left: 70px;
+	
 	margin-top: 50px;
 	text-align: right;
 	overflow: hidden;	
@@ -127,8 +132,8 @@ body {
 
 .slidesjs-container {
 
-	height:600px!important;
-	width: 600px!important;	
+	height:650px!important;
+	width: 650px!important;	
 }
 
 .slidesjs-next {
